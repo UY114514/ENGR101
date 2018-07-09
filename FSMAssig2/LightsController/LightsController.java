@@ -80,7 +80,7 @@ public class LightsController {
         if (this.state.equals("EWgoReady")) {
             if (sensor.equals("carNS")) {
                 this.intersection.turnEWamber();
-                this.intersection.restartTimer(3000);
+                this.intersection.restartTimer(4000);
                 this.state = "EWstopping";
             }
         } else if (this.state.equals("EWstopping")) {
@@ -108,13 +108,13 @@ public class LightsController {
         } else if (this.state.equals("NSgoMustChange")) {
             if (sensor.equals("timerExpired")) {
                 this.intersection.turnNSamber();
-                this.intersection.restartTimer(3000);
+                this.intersection.restartTimer(4000);
                 this.state = "NSstopping";
             }
         } else if (this.state.equals("NSgoReady")) {
             if (sensor.equals("carEW")) {
                 this.intersection.turnNSamber();
-                this.intersection.restartTimer(3000);
+                this.intersection.restartTimer(4000);
                 this.state = "NSstopping";
             }
         } else if (this.state.equals("NSstopping")) {
@@ -142,7 +142,7 @@ public class LightsController {
         } else if (this.state.equals("EWgoMustChange")) {
             if (sensor.equals("timerExpired")) {
                 this.intersection.turnEWamber();
-                this.intersection.restartTimer(3000);
+                this.intersection.restartTimer(4000);
                 this.state = "EWstopping";
             }
         }
