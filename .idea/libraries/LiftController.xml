@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="LiftController">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/FSMAssig2/LiftController" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/FSMAssig2/LiftController/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/FSMAssig2/LiftController" />
+    </SOURCES>
+  </library>
+</component>
